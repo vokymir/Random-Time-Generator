@@ -13,15 +13,38 @@
 <body>
     <h1>Odpočet náhodného času</h1>
     <div id="min">
+        <h2>Minimální čas</h2>
         <div class="input-group">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="">Hodiny</span>
             </div>
-            <input type="number" class="form-control">
+            <input type="number" class="form-control" value="0" id="minH">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="">Minuty</span>
             </div>
-            <input type="text" class="form-control">
+            <input type="number" class="form-control" value="1" id="minM">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Sekundy</span>
+            </div>
+            <input type="number" class="form-control" value="0" id="minS">
+        </div>
+    </div>
+
+    <div id="max">
+        <h2>Maximální čas</h2>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Hodiny</span>
+            </div>
+            <input type="number" class="form-control" value="0" id="maxH">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Minuty</span>
+            </div>
+            <input type="number" class="form-control" value="5" id="maxM">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Sekundy</span>
+            </div>
+            <input type="number" class="form-control" value="0" id="maxS">
         </div>
     </div>
 
